@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration</title>
+        <style>
+
+body {
+  background-image: url('images/ts.jpg');
+  background-repeat:no-repeat;
+  background-attachment:scroll;
+  background-blend-mode: screen;
+  background-size: cover;
+}
+            label {
+    display: block;
+    font: 0.9rem 'Fira Sans', sans-serif;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to The Eras Tour </h1>
+        <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+</div>
+
+<div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+
+<input type="submit" value="Sign in">
+    </body>
+</html>
